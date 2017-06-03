@@ -35,7 +35,17 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".DecimalActivity" />
+        //---------DECIMAL
+        <activity
+            android:name=".DecimalActivity"
+            android:label="Decimal Converter">
+            <intent-filter>
+                <action android:name="com.example.shane.converter.DecimalActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".AboutUsActivity" />
         <activity android:name=".TempActivity"></activity>
     </application>
